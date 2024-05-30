@@ -1,13 +1,13 @@
-<template lang="">
-    <div>
-        
-    </div>
-</template>
-<script>
-export default {
-    
-}
-</script>
-<style lang="">
-    
-</style>
+<template>
+  
+      <v-list class="bg-red" :items="items"></v-list>
+   
+  </template>
+  
+  
+  
+  <script>
+    export default {
+      props:['items']
+    }
+  </script>
